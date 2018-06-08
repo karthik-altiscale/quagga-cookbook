@@ -1,2 +1,4 @@
-# quagga-cookbook
-quagga cookbook with network namespace support 
+# quaggans
+
+Quagga cookbook with netns support
+----------------------------------
