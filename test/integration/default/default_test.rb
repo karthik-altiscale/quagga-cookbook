@@ -8,3 +8,7 @@
 describe package('quagga') do
   it { should be_installed }
 end
+
+describe command('vtysh -c "show interface lo"') do
+  its(:stdout) { should match(/Interface lo is down/) }
+end
